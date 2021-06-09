@@ -1,0 +1,106 @@
+.register{
+    width: 100%;
+    text-align: center;
+    background-color: #ebebeb;
+}
+.datos-usuario{
+    padding-top: 15px;
+}
+.inputs-register input,
+.inputs-register button
+{
+    width: 70%;
+    height: 45px;
+    margin: 20px 0px;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 16px; 
+    font-style: italic;
+    
+   
+}
+.inputs-register button{
+    background-color: #03264C;
+    color: white;
+    transition: background-color .5s;
+}
+button:hover{
+    background-color: #0022AA;
+    
+}
+.footer{
+    background-color: white;
+}
+.inputs-register .foto-us {
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.inputs-register label{
+    display: block;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.inputs-register input[type = radio], .inputs-register input[type = checkbox] {
+width: auto;
+height: auto;
+display: block;
+
+}
+.inputs-register .item-check, .inputs-register .item-radio{
+    margin: none;
+    text-align: left;
+
+}
+.inputs-register .item-check input, .inputs-register .item-check label, .inputs-register .item-radio input, .inputs-register .item-radio label{
+display: inline;
+width: auto;
+}
+.inputs-register .item-check label, .inputs-register .item-radio label{
+    
+    margin-left: 5px;
+}
+
+.box-general-intereses, .box-general-radio{
+    width: 70%;
+    margin: auto;
+}
+
+.box-general-radio .item-radio{
+   margin-right: 40px;
+}
+.box-general-radio{
+    display: flex;
+}
+
+.enviar{
+    text-decoration: none;
+    font-size: 16px;
+    color:white;
+    background-color: #03264C;
+    display: inline-block;
+    width: 70%;
+    height: 45px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: background-color .5s;
+}
+.enviar:hover{
+    background-color: #0022AA;
+    
+}
+.text-enviar{
+    margin-top: 10px;
+       
+}
+
+@media (max-width:360px){
+    
+     .box-general-radio{
+         display: block;
+     }
+}

@@ -1,0 +1,48 @@
+
+.login{
+    width: 100%;
+    text-align: center;
+    background-color: #ebebeb;
+}
+.inputs-login input,
+.inputs-login button
+{
+    width: 70%;
+    height: 40px;
+    margin: 20px 0px;
+    border-radius: 8px;
+    border-style: none; 
+}
+/*.inputs-login button{
+    background-color: #03264C;
+    color: white;
+    transition: background-color .5s;
+}
+button:hover{
+    background-color: #0022AA;
+    
+}*/
+.footer{
+    background-color: white;
+}
+
+.ingresar{
+    text-decoration: none;
+    color:white;
+    background-color: #03264C;
+    display: inline-block;
+    width: 70%;
+    height: 45px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: background-color .5s;
+}
+.ingresar:hover{
+    background-color: #0022AA;
+    
+}
+.ingresarlog{
+    margin-top: 10px;
+    
+}
